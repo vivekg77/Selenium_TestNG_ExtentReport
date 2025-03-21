@@ -1,0 +1,9 @@
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="My Test Suite">
+    <test name="User Authentication Tests">
+        <classes>
+            <class name="com.cyberpro.selenium.POMWithTestNG.GoogleSearchPageTest"/>
+            <class name="com.cyberpro.selenium.POMWithTestNG.LoginTest"/>
+        </classes>
+    </test>
+</suite>
